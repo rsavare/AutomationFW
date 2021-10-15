@@ -9,7 +9,8 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		features = {"src/test/resource/Features"},
 		glue = {"com.stepDef", "com.hooks"},
-		plugin = {"pretty"}
+		plugin = {"pretty"},
+		monochrome = true
 		) 
 
 public class ScriptRunner {
