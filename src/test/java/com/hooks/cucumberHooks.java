@@ -28,7 +28,7 @@ public class cucumberHooks {
 		String browserName = prop.getProperty("browser");
 		
 		driverfact = new DriverFactory();
-		driverfact.init_driver(browserName);
+		driver = driverfact.init_driver(browserName);
 		
 	}
 	
